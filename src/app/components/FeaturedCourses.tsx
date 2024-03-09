@@ -6,14 +6,14 @@ import { BackgroundGradient } from "./ui/background-gradient";
 import Image from "next/image";
 
 interface Course {
-  id: Number;
-  title: String;
-  slug: String;
-  ption: String;
-  price: Number;
-  instructor: String;
-  featured: boolean;
-  image: String;
+  id: number;
+  title: string;
+  slug: string;
+  description: string;
+  price: number;
+  instructor: string;
+  isFeatured: boolean;
+  image: string;
 }
 
 function FeaturedCourses() {
